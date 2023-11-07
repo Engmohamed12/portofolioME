@@ -1,143 +1,65 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: cursive;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-header{
-    background-color: rgb(188, 189, 190);
-    width: 100%;
-    position: fixed;
-    z-index: 9999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 150px;
 }
 span{
-    color: rgb(0, 0, 255);
+    color: #e6ccb2;
 }
-.logo{
-    text-decoration: none;
-    color: rgb(0, 0, 255);
-    text-transform: uppercase;
-font-size: 1.5em;
+body{
+    background-color:#7f5539;
+    color:#000000;
 }
-.nav a{
-    color: rgb(0, 0, 255);
-    text-decoration: none;
-    font-size: 1.2em;
-    padding-left: 30px;
+.container{
+    margin: 40px;
+    width: 90%;
+    padding: 30px;
+max-width: 700px;
 }
-.nav a:hover{
-color: black;
-transition: 0.4s ease-out;
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: #e6ccb2 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 30px;
+  border-radius: 15px;
 }
-
-section{
-    padding: 125px 90px;
-    }
-    .main{
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        background: url(image/mmm.jpg) no-repeat;
-        background-size: cover;
-        background-position: center;
-        }
-        .main h2{
-            margin-right: 80px;
-            margin-top: 50px;
-           font-size: 2.2em;             
- }
- .main h3{
-  font-size:1.7em ;
-  letter-spacing: 1px;
-  margin-top: 10px;
-
- }
-
- .social-icons a{
-    color: black;
-    font-size: 1.7em;
-    padding-right: 30px;
- }
- .title{
-    display: flex;
-    justify-content: center;
-    color: rgb(0, 0, 255);
-  margin-bottom: 30px;
-  font-weight: 800;
-  font-size: 2.2em;
- }
-
- .content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-
- }
- .card{
-    background-color: rgb(250, 191, 30);
-    width: 19em;
-    box-shadow: 0 -5px 30px rgba(1 1 1/ 30%);
-    border-radius: 10px;
-    padding: 25px;
-    margin: 15px;
-    transition: 0.5s ease;
-     }
-
-     .card:hover{
-        transform: scale(1.1);
-     }
-     .icon {
-        color: rgb(0, 0, 0) ;
-        font-size: 3em;
-        text-align: center;
-     }
-    .info{
-        text-align: center;
-    }
-.info h3{
-    color:rgb(0, 0, 255);
-    font-size: 1.2em;
-    font-weight: 600;
-    margin: 10px;
- }
-
- @media(max-width:1023px){
-    header{
-        padding: 3px 30px;
-    }
-    .nav a{
-        padding-left: 10px;
-    }
-
-    .title{
-        font-size: 1.8em;
-    }
-    section{
-        padding: 70px 40px ;
-         }
-     
- }
-
- button{
-    border-radius: 15px;
+#password{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
     border: none;
-    width: 100px;
-    font-size: 15px;
-    margin-left: 200px;
-    margin-bottom: 90px;
-    background-color: rgb(250, 191, 30);
+    outline: none;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+  border-radius: 10px;
+border: none;
+outline: none;
+font-size: 20px;
+font-weight: 700;
 }
 
 button:hover{
-    color: rgb(7, 240, 221);
-    transform: scale(1.2);
-    background-color: black;
-    transition: 0.4s ease-out;
+    background-color:#e6ccb2 ;
+    color: black;
+    transition: 0.3s ease;
     cursor: pointer;
+    transform: scale(1.1);
+}
+#password::placeholder{
+    font-size: 20px;
+    padding-left: 30px;
 }
 
+a:hover{
+    background-color: #7f5539;
+    cursor: pointer;
+    transition: 0.1;
+    }
